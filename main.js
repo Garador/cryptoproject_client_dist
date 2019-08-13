@@ -10,17 +10,17 @@
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "../node/node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _environments_environment_prod__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../environments/environment.prod */ "./src/environments/environment.prod.ts");
+/* harmony import */ var _environments_environment__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../environments/environment */ "./src/environments/environment.ts");
 
 
 var Configuration = /** @class */ (function () {
     function Configuration() {
         this._defConfiguration = {
-            EXPRESS_HOST: _environments_environment_prod__WEBPACK_IMPORTED_MODULE_1__["environment"].EXPRESS_HOST,
-            EXPRESS_PORT: _environments_environment_prod__WEBPACK_IMPORTED_MODULE_1__["environment"].EXPRESS_PORT,
-            SOCKET_HOST: _environments_environment_prod__WEBPACK_IMPORTED_MODULE_1__["environment"].SOCKET_HOST,
-            SOCKET_PORT: _environments_environment_prod__WEBPACK_IMPORTED_MODULE_1__["environment"].SOCKET_PORT,
-            SOCKET_TIMEOUT_MILLIS: _environments_environment_prod__WEBPACK_IMPORTED_MODULE_1__["environment"].SOCKET_TIMEOUT_MILLIS
+            EXPRESS_HOST: _environments_environment__WEBPACK_IMPORTED_MODULE_1__["environment"].EXPRESS_HOST,
+            EXPRESS_PORT: _environments_environment__WEBPACK_IMPORTED_MODULE_1__["environment"].EXPRESS_PORT,
+            SOCKET_HOST: _environments_environment__WEBPACK_IMPORTED_MODULE_1__["environment"].SOCKET_HOST,
+            SOCKET_PORT: _environments_environment__WEBPACK_IMPORTED_MODULE_1__["environment"].SOCKET_PORT,
+            SOCKET_TIMEOUT_MILLIS: _environments_environment__WEBPACK_IMPORTED_MODULE_1__["environment"].SOCKET_TIMEOUT_MILLIS
         };
     }
     Object.defineProperty(Configuration, "Instance", {
@@ -32,7 +32,7 @@ var Configuration = /** @class */ (function () {
     });
     Object.defineProperty(Configuration.prototype, "production", {
         get: function () {
-            return _environments_environment_prod__WEBPACK_IMPORTED_MODULE_1__["environment"].production;
+            return _environments_environment__WEBPACK_IMPORTED_MODULE_1__["environment"].production;
         },
         enumerable: true,
         configurable: true
@@ -4001,28 +4001,6 @@ var UserService = /** @class */ (function () {
     return UserService;
 }());
 
-
-
-/***/ }),
-
-/***/ "./src/environments/environment.prod.ts":
-/*!**********************************************!*\
-  !*** ./src/environments/environment.prod.ts ***!
-  \**********************************************/
-/*! exports provided: environment */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "environment", function() { return environment; });
-var environment = {
-    production: true,
-    EXPRESS_HOST: "http://cryptoserver1.herokuapp.com",
-    EXPRESS_PORT: 3000,
-    SOCKET_HOST: "http://cryptoserver1.herokuapp.com",
-    SOCKET_PORT: 3000,
-    SOCKET_TIMEOUT_MILLIS: 8000
-};
 
 
 /***/ }),
