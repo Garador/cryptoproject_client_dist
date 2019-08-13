@@ -714,7 +714,7 @@ if(false) {}
 
 /***/ }),
 
-/***/ 3:
+/***/ 4:
 /*!**************************************************************************************************************************************************************************************************!*\
   !*** multi ./src/styles.scss ./src/assets/bootstrap/css/bootstrap.min.css ./src/assets/fonts/font-awesome.min.css ./src/assets/fonts/ionicons.min.css ./src/assets/fonts/material-icons.min.css ***!
   \**************************************************************************************************************************************************************************************************/
@@ -730,5 +730,5 @@ module.exports = __webpack_require__(/*! /home/azolot/Documents/Work/Gigs/Reddit
 
 /***/ })
 
-},[[3,"runtime"]]]);
+},[[4,"runtime"]]]);
 //# sourceMappingURL=styles.js.map
